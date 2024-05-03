@@ -94,6 +94,10 @@ interface StringDictionary {
 }
 
 const API_TARGETS: StringDictionary = {
+    "34": "Android 14",
+    "33": "Android 13",
+    "32": "Android 12.1",
+    "31": "Android 12",
     "30": "Android 11",
     "29": "Android 10",
     "28": "Android 9",
