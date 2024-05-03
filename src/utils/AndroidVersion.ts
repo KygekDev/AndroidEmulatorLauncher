@@ -54,4 +54,28 @@ export const ANDROID_VERSIONS: AndroidVersion[] = [
         api: 30,
         systemImage: "system-images;android-30;google_apis_playstore;x86",
     },
+    {
+        name: "12",
+        versionNumber: "12",
+        api: 31,
+        systemImage: "system-images;android-31;google_apis_playstore;x86",
+    },
+    {
+        name: "12L",
+        versionNumber: "12.1",
+        api: 32,
+        systemImage: "system-images;android-32;google_apis_playstore;x86",
+    },
+    {
+        name: "13",
+        versionNumber: "13",
+        api: 33,
+        systemImage: "system-images;android-33;google_apis_playstore;x86",
+    },
+    {
+        name: "14",
+        versionNumber: "14",
+        api: 34,
+        systemImage: "system-images;android-34;google_apis_playstore;x86",
+    },
 ];
