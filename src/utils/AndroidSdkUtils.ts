@@ -140,7 +140,7 @@ export const deleteAvd = async (avd: AvdConfig): Promise<boolean> => {
 
 export const createAvd = async (spec: CreateAvdSpec, log?: (text: string) => void): Promise<undefined> => {
     const sanitizedName = spec.name.replace(/ /g, "_").replace(/-/g, "_");
-    const createAvdCommand = `echo no | ${avdManagerExecutable()} create avd --name "${sanitizedName}" --abi "google_apis_playstore/x86" --package "${
+    const createAvdCommand = `echo no | ${avdManagerExecutable()} create avd --name "${sanitizedName}" --abi "google_apis_playstore/x86_64" --package "${
         spec.androidVersion.systemImage
     }"`;
     return installPackage(spec.androidVersion.systemImage, log)
